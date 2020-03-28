@@ -17,6 +17,8 @@ public class MyBinarySearchTree {
         if (node == null) {
             return;
         }
-
-
+        printInOrder(node.getLeftNode());
+        System.out.println(node.getData());
     }
+}
+
