@@ -14,6 +14,5 @@ public class MyMain {
 
 
         MyBinarySearchTree myBinarySearchTree = new MyBinarySearchTree();
-
     }
 }

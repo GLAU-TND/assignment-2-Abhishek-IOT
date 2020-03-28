@@ -12,6 +12,9 @@ import problem1.node.TreeNode;
 public class MyBinarySearchTree {
     TreeNode root;
 
+    public TreeNode getRoot() {
+        return root;
+    }
 
     void printInOrder(TreeNode node) {
         if (node == null) {
@@ -21,4 +24,6 @@ public class MyBinarySearchTree {
         System.out.println(node.getData());
     }
 }
+
+
 
