@@ -8,8 +8,13 @@ package problem1.node;
 
 public class TreeNode {
     int data;
-    TreeNode node;
+    TreeNode leftNode;
+    TreeNode rightNode;
 
-
+    public TreeNode(int item) {
+        data = item;
+        leftNode = null;
+        rightNode = null;
+    }
 
 }
