@@ -1,19 +1,25 @@
 package problem2.main;
 
 public class Node {
-    Node next = null;
+    Node leftNode = null;
+    Node rigthNode = null;
     int data;
 
     public Node(int data) {
-        this.next = null;
+        this.leftNode = null;
         this.data = data;
     }
 
-    public Node getNext() {
-        return next;
+    public Node getLeftNode() {
+        return leftNode;
+    }
+
+    public Node getRightNode() {
+        return rigthNode;
     }
 
     public int getData() {
         return data;
     }
+
 }

@@ -14,5 +14,6 @@ public class MyMain {
         Node node = new Node(5);
         tree.printInOrder(node);
         tree.printpostOrder(node);
+
     }
 }
