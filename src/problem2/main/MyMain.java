@@ -13,5 +13,6 @@ public class MyMain {
         Tree tree = new Tree();
         Node node = new Node(5);
         tree.printInOrder(node);
+        tree.printpostOrder(node);
     }
 }

@@ -1,7 +1,5 @@
 package problem2.main;
 
-import problem1.node.TreeNode;
-
 public class Tree {
     public Node root;
 
@@ -18,7 +16,7 @@ public class Tree {
         printInOrder(node.getRightNode());
     }
 
-    public void printpostOrder(TreeNode node) {
+    public void printpostOrder(Node node) {
         if (node == null) {
             return;
         }
