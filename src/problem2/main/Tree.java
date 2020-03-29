@@ -9,7 +9,7 @@ public class Tree {
         return root;
     }
 
-    public void printInOrder(TreeNode node) {
+    public void printInOrder(Node node) {
         if (node == null) {
             return;
         }

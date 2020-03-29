@@ -11,7 +11,7 @@ package problem2.main;
 public class MyMain {
     public static void main(String[] args) {
         Tree tree = new Tree();
-        Node node = new Node();
-        tree.printInOrder();
+        Node node = new Node(5);
+        tree.printInOrder(node);
     }
 }
