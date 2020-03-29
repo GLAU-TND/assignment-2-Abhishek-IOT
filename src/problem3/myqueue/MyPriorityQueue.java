@@ -25,7 +25,7 @@ public class MyPriorityQueue {
 
     }
 
-    public void sort() {
+    public void sort(Node node) {
 
     }
 
