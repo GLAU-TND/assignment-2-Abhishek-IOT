@@ -13,7 +13,7 @@ public class MyPriorityQueue {
     Node rear = null;
 
 
-    void enquue(int data) {
+    public void enquue(int data) {
         Node queue = new Node(data);
         if (this.rear == null) {
             this.rear = queue;
