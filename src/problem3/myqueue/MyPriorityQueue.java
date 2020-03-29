@@ -18,7 +18,16 @@ public class MyPriorityQueue {
         if (this.rear == null) {
             this.rear = queue;
             this.front = queue;
-
+            return;
         }
+        this.rear.node = queue;
+        this.rear = queue;
+
     }
+
+    public void sort() {
+
+    }
+
+
 }
