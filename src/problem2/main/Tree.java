@@ -15,5 +15,17 @@ public class Tree {
         }
         printInOrder(node.getLeftNode());
         System.out.println(node.getData());
+        printInOrder(node.getRightNode());
     }
+
+    public void printpostOrder(TreeNode node) {
+        if (node == null) {
+            return;
+        }
+        printpostOrder(node.getRightNode());
+        System.out.println(node.getData());
+        printpostOrder(node.getLeftNode());
+    }
+
+
 }
