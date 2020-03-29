@@ -41,5 +41,11 @@ public class MyPriorityQueue {
         enquue(data);
     }
 
+    public Node getFront() {
+        return front;
+    }
 
+    public Node getRear() {
+        return rear;
+    }
 }

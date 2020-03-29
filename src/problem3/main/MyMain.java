@@ -18,6 +18,7 @@ public class MyMain {
         myPriorityQueue.enquue(5);
         myPriorityQueue.enquue(10);
         myPriorityQueue.enquue(2);
+        myPriorityQueue.sort(myPriorityQueue.getRear());
         System.out.println("Queue" + myPriorityQueue.toString());
 
 
