@@ -25,6 +25,13 @@ public class MyPriorityQueue {
 
     }
 
+    public void isEmpty() {
+        if (rear == null && front == null) {
+            return;
+        }
+    }
+
+
     public void sort(Node node) {
 
     }
